@@ -1,5 +1,4 @@
-# python
-# Chapter.1
+# python Chapter.1
 
 ## 파이썬 실행하기
 실행방법은 두가지
