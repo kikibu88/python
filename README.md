@@ -1,12 +1,7 @@
 # python
-#Chapter.1
-@(Python with KIKIBU)[Chapter.1]
+# Chapter.1
 
-----------
-
-[TOC]
-
-##파이썬 실행하기
+## 파이썬 실행하기
 실행방법은 두가지
 * 인터렉티브 모드
 	* 커맨드 창에 python
@@ -27,12 +22,12 @@ $ >>2
 $ python test.py
 ```
 
-##print 이용하여 출력하기
+## print 이용하여 출력하기
 ```python
 print("hello world")
 ```
 
-##주석
+## 주석
 ```python
 """
 줄바꿈
@@ -43,7 +38,7 @@ print("hello world")
 ```
 
 
-##자료형
+## 자료형
 * int
 ```python
 print(type(123)) // <class 'int'>
@@ -63,7 +58,7 @@ print(type(None)) // <class 'NoneType'>
 
 * list, dictionary, tuple 은 추후에
 
-##연산자
+## 연산자
 ### 사칙연산
 실제 세계에서 사용하는 일반적인 연산자이다
 | 연산자      |    사용예 | 설명  |
@@ -73,7 +68,7 @@ print(type(None)) // <class 'NoneType'>
 | /  | 6/2 // 3 |
 | %  | 7%3 // 1 | 나머지 반환 |
 
-###비교연산
+## #비교연산
 
 | 연산자      | 사용예 | 설명  |
 | :---: | :---:| :--: |
@@ -85,7 +80,7 @@ print(type(None)) // <class 'NoneType'>
 | <=  | a <= b | a가 b보다 작거나 같다  |
 
 
-###True, False
+### True, False
 비교 연산자의 결과는 참과 거짓으로 돌려준다
 
 ```python
@@ -95,7 +90,7 @@ print (1+2)!=3 // False
 ```
 
 
-###변수 사용하기
+## #변수 사용하기
 ```python
 temp = 100
 print temp // 100
